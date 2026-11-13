@@ -1,24 +1,103 @@
 site_name: Xiaomi Pad 8 Pro (piano)
+site_description: Install, use and build the community Android ROMs for the Xiaomi Pad 8 Pro.
 site_url: https://xiaomi-pad-8-pro-development.github.io/
-repo_url: https://github.com/xiaomi-pad-8-pro-development
-repo_name: xiaomi-pad-8-pro-development
+repo_url: https://github.com/xiaomi-pad-8-pro-development/xiaomi-pad-8-pro-development.github.io
+repo_name: xiaomi-pad-8-pro-development.github.io
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
   palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      toggle: {icon: material/weather-night, name: Dark mode}
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      toggle: {icon: material/weather-sunny, name: Light mode}
-  features: [navigation.instant, content.code.copy]
-markdown_extensions: [admonition, tables, toc: {permalink: true}]
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system theme
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+
+plugins:
+  - search
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 nav:
   - Home: index.md
-  - Install: install.md
+  - Get started:
+      - get-started/index.md
+      - Is my device supported?: get-started/supported.md
+      - Risks and backups: get-started/risks.md
+  - Install:
+      - install/index.md
+      - 1. Unlock the bootloader: install/unlock.md
+      - 2. Flash a recovery: install/recovery.md
+      - 3. Install the ROM: install/rom.md
+      - Root with KernelSU: install/root.md
+      - Updating: install/update.md
+      - Going back to stock: install/stock.md
+  - Features:
+      - features/index.md
+      - Xiaomi Parts: features/xiaomi-parts.md
+      - ALXP features: features/alxp.md
+      - Pen and keyboard: features/pen-keyboard.md
+      - Display modes: features/display.md
   - Kernels: kernels.md
-  - Recovery: recovery.md
-  - Build from source: building.md
-  - Repositories: repos.md
-  - Known issues and FAQ: faq.md
-  - Contributing: contributing.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+      - Boot loops: troubleshooting/boot-loops.md
+      - The misc fix: troubleshooting/misc.md
+      - Slot recovery: troubleshooting/slots.md
+      - Decrypt issues: troubleshooting/decrypt.md
+      - Recovery problems: troubleshooting/recovery.md
+      - Charging: troubleshooting/charging.md
+  - FAQ:
+      - faq.md
+      - Glossary: glossary.md
+  - For developers:
+      - developers/index.md
+      - Building: developers/building.md
+      - Repository map: developers/repos.md
+      - Kernel branches: developers/kernel-branches.md
+      - Contributing: developers/contributing.md

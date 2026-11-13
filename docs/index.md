@@ -1,33 +1,88 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Xiaomi Pad 8 Pro (piano)
 
-This site explains how to install, use and build the community Android
-ROMs for the Xiaomi Pad 8 Pro. The code name of the tablet is **piano**.
+Community Android ROMs, kernels and recoveries for the **Xiaomi Pad 8 Pro**.
+Its code name is **piano**.
 
-## The tablet
+This site tells you, step by step, how to install a ROM, keep it updated,
+fix common problems, and go back to stock if you want to.
 
-| | |
-| --- | --- |
-| Chip | Qualcomm Snapdragon 8 Elite (SM8750, platform name "sun") |
-| CPU | Qualcomm Oryon, 64-bit only |
-| GPU | Adreno 830 |
-| Display | Up to 144 Hz. TODO: size and resolution |
-| Speakers | Four, with FourSemi FS19xx amplifiers |
-| Cameras | TODO: sensors (the camera HAL lists four cameras) |
-| Extras | Focus Pen, keyboard cover, IR blaster, NFC tag |
-| Storage | UFS. TODO: RAM and storage options |
-| Battery | TODO: capacity and charging speed |
-| Partitions | A/B slots with Virtual A/B |
+!!! danger "Read this first"
+    Installing a custom ROM can erase your data. Done wrong, it can leave
+    the tablet unable to start. Read [Risks and backups](get-started/risks.md)
+    before you change anything.
 
-## What we ship
+<div class="grid cards" markdown>
 
-- **Android 17** ROMs (LineageOS based, and Evolution X) built on the
-  HyperOS 4 China firmware `OS4.0.6.0.XPYCNXM`.
-- Our own **kernel** (alxp), with an optional root (KernelSU-Next) build.
-- **Recoveries**: TWRP 16, YARP and OrangeFox R12.
-- Optional extras: Xiaomi pen, keyboard and display settings, Xiaomi
-  camera, Xiaomi Notes, and an offline notes app.
+-   :material-tablet:{ .lg .middle } **Is my tablet supported?**
 
-TODO: link to the download page for releases.
+    ---
 
-!!! warning
-    Unlocking and flashing can erase all your data. Back up first.
+    Check the model and what you need before you begin.
+
+    [:octicons-arrow-right-24: Check my device](get-started/supported.md)
+
+-   :material-download:{ .lg .middle } **Install a ROM**
+
+    ---
+
+    Unlock, flash a recovery, install the ROM. Every step numbered.
+
+    [:octicons-arrow-right-24: Install guide](install/index.md)
+
+-   :material-update:{ .lg .middle } **Update**
+
+    ---
+
+    Install a new build without losing your data.
+
+    [:octicons-arrow-right-24: Updating](install/update.md)
+
+-   :material-pound:{ .lg .middle } **Root**
+
+    ---
+
+    Use the KernelSU-Next kernel build.
+
+    [:octicons-arrow-right-24: Root with KernelSU](install/root.md)
+
+-   :material-pen:{ .lg .middle } **Features**
+
+    ---
+
+    Focus Pen, keyboard cover, display modes and extras.
+
+    [:octicons-arrow-right-24: See features](features/index.md)
+
+-   :material-lifebuoy:{ .lg .middle } **Something went wrong**
+
+    ---
+
+    Boot loops, a stuck slot, data that will not decrypt.
+
+    [:octicons-arrow-right-24: Troubleshooting](troubleshooting/index.md)
+
+-   :material-backup-restore:{ .lg .middle } **Back to stock**
+
+    ---
+
+    Return to Xiaomi HyperOS.
+
+    [:octicons-arrow-right-24: Going back to stock](install/stock.md)
+
+-   :material-code-braces:{ .lg .middle } **For developers**
+
+    ---
+
+    Build the ROM and kernel, and send changes.
+
+    [:octicons-arrow-right-24: Developer docs](developers/index.md)
+
+</div>
+
+New to these words? See the [Glossary](glossary.md).
