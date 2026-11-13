@@ -12,7 +12,8 @@ make backups. One source tree builds three recoveries. Pick one.
 All of them use touch, decrypt your data with your PIN, install ROM and
 firmware zips, and make backups.
 
-TODO: link to the recovery download page.
+!!! note "Coming soon"
+    Link to the recovery download page.
 
 !!! warning "Use a recovery made for your firmware"
     Use the newest recovery build. Decryption only works when the recovery
@@ -43,7 +44,9 @@ TODO: link to the recovery download page.
     ```
 
     If that does not work, hold **Volume up** and **Power** from power off.
-    TODO: confirm the key combo on piano.
+    This is the usual combo on Xiaomi tablets
+    ([guide for the Xiaomi Pad 6 Pro](https://droidrecovery.com/xiaomi-pad-6-pro-recovery-mode/));
+    no official Xiaomi page for piano was found.
 
 6. Make sure the recovery opens and you can touch the screen.
 

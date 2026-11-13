@@ -2,8 +2,20 @@
 
 You can return to Xiaomi HyperOS with the stock **fastboot ROM**.
 
-TODO: link to where users can get the stock fastboot ROM for piano, and
-which version to use.
+Xiaomi does not publish a public ROM page for piano that we found. Stock
+fastboot ROMs (`.tgz` files) for China, Global, EEA, Taiwan and Indonesia are
+listed on mirrors such as
+[xiaomirom.com](https://xiaomirom.com/en/rom/xiaomi-pad-8-pro-piano-china-fastboot-recovery-rom/)
+and [miuidownloader.com](https://miuidownloader.com/hyperos/piano). These
+link to Xiaomi's own download servers. The well-known
+xiaomifirmwareupdater.com showed a "domain for sale" page when checked in
+November 2026.
+
+Use the region your tablet was sold in. The ROMs in this project are based
+on China firmware `OS4.0.6.0.XPYCNXM`.
+
+!!! note "Coming soon"
+    Which stock version the project recommends for going back.
 
 !!! danger "Choose the right script"
     The stock fastboot ROM has several scripts. Pick carefully.

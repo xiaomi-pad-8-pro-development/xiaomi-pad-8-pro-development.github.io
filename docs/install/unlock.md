@@ -19,9 +19,35 @@ it to install anything else.
 6. Run Xiaomi's official unlock tool on the computer and follow it.
 7. The tablet erases itself and restarts unlocked.
 
-TODO: the exact unlock rules and waiting period for this model and region,
-and the link to Xiaomi's unlock tool. Check every menu name above against
-HyperOS 4 on piano.
+## Xiaomi's unlock rules
+
+These rules come from community reports, not an official Xiaomi page, and
+Xiaomi changes them often. Check the current rules before you start.
+
+- **Global, EEA and other non-China firmware:** you apply in the
+  **Xiaomi Community** app (version 5.3.31 or newer, region set to Global,
+  **Me → Unlock bootloader**). The Xiaomi account must be at least 30 days
+  old, and since 1 January 2025 one account can unlock one device per
+  year. Applications have a daily quota that resets at 00:00 China time.
+  After approval, the usual HyperOS waiting time in the unlock tool is
+  72 hours, but some users report 14 or 30 days.
+  ([xiaomiui.net](https://xiaomiui.net/how-to-unlock-bootloader-on-xiaomi-official-steps-wait-times-and-hyperos-rules-74863/),
+  [Xiaomi Community](https://new.c.mi.com/global/post/2251454))
+- **China firmware:** official unlocking is very limited. Reports describe
+  Community level 5, real-name verification, or no unlock option at all
+  for some models.
+  ([Bootloader Unlock Wall of Shame](https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame/blob/main/brands/xiaomi/README.md),
+  [Wikipedia](https://en.wikipedia.org/wiki/Bootloader_unlocking))
+
+!!! warning "Sources conflict"
+    Some guides say Global firmware also needs Community level 5
+    ([xiaomiui.net](https://xiaomiui.net/how-to-unlock-bootloader-on-xiaomi-official-steps-wait-times-and-hyperos-rules-74863/)),
+    while a Xiaomi Community FAQ says Global users can apply from level 1
+    ([Xiaomi Community](https://new.c.mi.com/global/post/2251454)).
+
+!!! note "Coming soon"
+    Which menu names above were checked on HyperOS 4 on piano, and the
+    link to the unlock tool the project recommends.
 
 ## Check that it worked
 

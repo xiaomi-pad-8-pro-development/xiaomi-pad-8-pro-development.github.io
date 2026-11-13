@@ -21,8 +21,9 @@ Only the **Xiaomi Pad 8 Pro**, code name **piano**.
 
 3. The answer must be `piano`.
 
-TODO: which regions (China, Global) have been tested, and whether the
-tablet must be on a certain HyperOS version first.
+!!! note "Coming soon"
+    Which regions (China, Global) have been tested, and whether the
+    tablet must be on a certain HyperOS version first.
 
 ## What you need
 
@@ -36,7 +37,8 @@ tablet must be on a certain HyperOS version first.
 ## Device specs
 
 These values come from the source code of this project (device tree,
-kernel devicetree and overlays). Anything not found there is marked TODO.
+kernel devicetree and overlays), checked against Xiaomi's [spec page](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/) and
+[GSMArena](https://www.gsmarena.com/xiaomi_pad_8_pro-14183.php).
 
 | | |
 | --- | --- |
@@ -46,14 +48,20 @@ kernel devicetree and overlays). Anything not found there is marked TODO.
 | Display | LCD, 3200 × 2136 pixels, 90, 120 and 144 Hz modes, density 440 |
 | Display area | 238.7 × 163.2 mm (from the panel devicetree) |
 | Speakers | Four, with FourSemi amplifiers, Dolby audio |
-| Cameras | One rear camera with autofocus and flash, one front camera. TODO: sensor names and megapixels |
-| Battery | 9200 mAh (from the power profile). TODO: confirm with Xiaomi's rated value |
-| Charging | Fast charging with the Xiaomi charger. About 18 W on other USB PD chargers. TODO: maximum watts |
+| Cameras | One rear camera with autofocus and flash, one front camera. Rear 50 MP (1/2.76", f/1.8), front 32 MP ([Xiaomi](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/)) |
+| Battery | 9200 mAh, matching Xiaomi's rated (typical) value ([Xiaomi](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/)) |
+| Charging | Fast charging with the Xiaomi charger. About 18 W on other USB PD chargers. Up to 67 W HyperCharge; no charger in the box ([Xiaomi](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/)) |
 | Sensors | Accelerometer, gyroscope, compass, light, proximity, step counter |
 | Connectivity | Wi-Fi (Aware, Direct, Passpoint), Bluetooth LE, USB host, NFC, IR blaster |
 | Accessories | Xiaomi Focus Pen, keyboard cover with touchpad |
-| Storage | UFS. TODO: RAM and storage options |
+| Memory and storage | 8/128, 8/256, 12/256, 12/512 and 16/512 GB; the 128 GB model uses UFS 3.1, the others UFS 4.1 ([GSMArena](https://www.gsmarena.com/xiaomi_pad_8_pro-14183.php)). Global sale lists only 8/128, 8/256 and 12/512 ([Digital Trends](https://www.digitaltrends.com/tablets/xiaomi-pad-8-pro-review/)) |
 | Partitions | A/B slots with Virtual A/B |
 | Stock software | HyperOS 4 (China firmware `OS4.0.6.0.XPYCNXM` is used by the ROM) |
+| Screen size | 11.2 inches ([GSMArena](https://www.gsmarena.com/xiaomi_pad_8_pro-14183.php)) |
+| Size | 251.22 × 173.42 × 5.75 mm; 5.8 mm for the matte glass version ([Xiaomi](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/)) |
+| Weight | 485 g; 494 g for the matte glass version ([Xiaomi](https://www.mi.com/uk/product/xiaomi-pad-8-pro/specs/)) |
 
-TODO: screen size in inches, weight and size of the tablet.
+!!! warning "Sources conflict"
+    RAM type: some listings say LPDDR5X for all models, while
+    [Digital Trends](https://www.digitaltrends.com/tablets/xiaomi-pad-8-pro-review/)
+    lists 12 GB as LPDDR5T. One retailer lists UFS 4.0 instead of 4.1.

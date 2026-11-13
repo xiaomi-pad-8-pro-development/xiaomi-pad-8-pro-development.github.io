@@ -41,7 +41,8 @@ Download the stock HyperOS **fastboot ROM** for this tablet before you
 begin and keep it on your computer. With it you can always
 [go back to stock](../install/stock.md).
 
-TODO: link to where users can get the stock fastboot ROM for piano.
+See [Going back to stock](../install/stock.md) for where to get the stock
+fastboot ROM.
 
 ## Golden rules
 

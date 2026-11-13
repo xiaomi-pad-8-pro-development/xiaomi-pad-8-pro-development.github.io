@@ -32,7 +32,10 @@ You will use three special modes. Each one has its own tools.
 2. Hold **Volume down** and **Power** together until the fastboot screen
    shows.
 
-    TODO: confirm the key combo on piano.
+    **Volume down** and **Power** is the standard fastboot combo on Xiaomi
+    devices ([Wikipedia: Fastboot](https://en.wikipedia.org/wiki/Fastboot),
+    [guide for the Xiaomi Pad 7](https://www.hardreset.info/devices/xiaomi/xiaomi-pad-7/fastboot-mode/));
+    no official Xiaomi page for piano was found.
 
 Or, from Android with USB debugging on:
 
