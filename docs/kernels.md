@@ -1,36 +1,40 @@
 # Kernels
 
-The kernel is called **alxp**. Its source is in
-[android_kernel_xiaomi_piano](https://github.com/xiaomi-pad-8-pro-development/android_kernel_xiaomi_piano),
-built by [auto](https://github.com/xiaomi-pad-8-pro-development/auto) into
-[ready-made files](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-kernel)
-that the ROM uses.
+The kernel is the core of the system. It talks to the hardware. This
+project has its own kernel, called **alxp**.
 
-## 6.6 or 6.12
+## Which kernel should I use?
+
+Use the **6.6** kernel. It is in every ROM build.
 
 | | 6.6 | 6.12 |
 | --- | --- | --- |
-| Status | Daily kernel, in every ROM build | Testing |
-| Base | Xiaomi Pad 8 source, replayed on piano (android15-6.6) | Qualcomm KERNEL.PLATFORM 5.0 (android16-6.12) |
+| Status | Daily use, in every ROM build | Testing only |
+| Base | Xiaomi Pad 8 kernel source, replayed on piano (`android15-6.6`) | Qualcomm kernel platform (`android16-6.12`) |
 | Xiaomi drivers | Xiaomi's own source | Ported from 6.6; some rewritten |
-| Source branch | `6.6` | `6.12` (patches) and `6.12-source` (full tree) |
 
-On 6.12 the display, GPU, sound, Wi-Fi, Bluetooth, USB, touch, pen,
-cameras, battery and charging work in testing. Some Xiaomi modules
-without source are still missing. If you are not testing, use 6.6.
+The 6.12 kernel is still in testing. Some Xiaomi features are missing,
+such as reading mode. If you are not testing, stay on 6.6.
 
 TODO: which 6.12 builds are public, and its current known issues.
 
-## KernelSU variant
+## Plain or root build
 
-Each kernel also comes in a root build with
-**KernelSU-Next** and **SUSFS** (to hide root).
+Each kernel comes in two builds.
 
-| Prebuilt branch | Kernel |
+| Build | What it is |
 | --- | --- |
-| `6.6` | Plain |
-| `6.6-ksu` | KernelSU-Next + SUSFS |
+| **Plain** | No root. Used in the official ROM builds. |
+| **KernelSU** | Root with **KernelSU-Next**, and **SUSFS** to hide root. |
 
-Install the KernelSU-Next manager app to use root.
+To install the root build, see [Root with KernelSU](install/root.md).
 
-TODO: how users pick the KSU build (separate ROM zip or kernel zip).
+## Where it comes from
+
+- Source: [android_kernel_xiaomi_piano](https://github.com/xiaomi-pad-8-pro-development/android_kernel_xiaomi_piano)
+- Built by: [auto](https://github.com/xiaomi-pad-8-pro-development/auto)
+- Ready-made files used by the ROM:
+  [android_device_xiaomi_piano-kernel](https://github.com/xiaomi-pad-8-pro-development/android_device_xiaomi_piano-kernel)
+
+Every kernel module is built from source. Developers, see
+[Kernel branches](developers/kernel-branches.md).
