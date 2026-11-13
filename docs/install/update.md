@@ -17,7 +17,8 @@ stays as it is until you restart. If the new build fails, you can go back.
 2. Download and install the update.
 3. Restart when it asks.
 
-TODO: confirm the updater app and its update server for each ROM.
+!!! note "Coming soon"
+    The updater app and its update server for each ROM.
 
 ## Update from recovery
 

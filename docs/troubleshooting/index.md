@@ -47,4 +47,5 @@ When you ask for help, say:
 3. What you did, step by step, and what you see now.
 4. The output of `fastboot getvar current-slot`.
 
-TODO: link to the support group and bug tracker.
+!!! note "Coming soon"
+    Links to the support group and bug tracker.

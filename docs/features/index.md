@@ -3,7 +3,8 @@
 Some features are in every build. Others are **optional extras** that a
 build may or may not include. Check the release notes of your build.
 
-TODO: list which extras each public ROM build includes.
+!!! note "Coming soon"
+    Which extras each public ROM build includes.
 
 | Feature | Where | In every build? |
 | --- | --- | --- |
@@ -11,7 +12,7 @@ TODO: list which extras each public ROM build includes.
 | [ALXP features](alxp.md): AirPods, iPhone and Mac extras | Settings → ALXP Features | Optional |
 | [Pen and keyboard](pen-keyboard.md) | Settings → Xiaomi features | Optional |
 | [Display modes](display.md): refresh rate, reading mode | Settings → Display | Partly |
-| Dolby audio | Dolby settings (TODO: confirm entry) | Yes |
+| Dolby audio | Dolby settings | Yes |
 | Xiaomi camera | Camera app | Optional |
 | Xiaomi Notes (no account needed) | Notes app | Optional |
 | Offline notes app with pen ink | Notes app | Optional |

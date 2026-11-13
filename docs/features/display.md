@@ -11,7 +11,8 @@ peak rate:
 1. Open **Settings → Display**.
 2. Find the refresh rate option and pick a lower value.
 
-TODO: confirm the menu name of the refresh rate option on each ROM.
+!!! note "Coming soon"
+    The menu name of the refresh rate option on each ROM.
 
 ## Xiaomi display modes
 

@@ -31,8 +31,9 @@ The clipboard and second display need the **ALXP for Mac** menu bar app.
 
 1. Get ALXP for Mac.
 
-    TODO: download link for a ready-made ALXP for Mac app (today it is
-    built from source).
+    !!! note "Coming soon"
+        A download link for a ready-made ALXP for Mac app (today it is
+        built from source).
 
 2. Open it. It finds the Pad on the same Wi-Fi. If your network blocks
    that, it can use a USB cable with `adb` instead.
@@ -45,5 +46,6 @@ The clipboard and second display need the **ALXP for Mac** menu bar app.
 
 ## iPhone notifications
 
-TODO: setup steps for iPhone notifications (pairing the iPhone with the
-Pad over Bluetooth).
+!!! note "Coming soon"
+    Setup steps for iPhone notifications (pairing the iPhone with the
+    Pad over Bluetooth).

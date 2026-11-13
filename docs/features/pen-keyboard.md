@@ -16,7 +16,8 @@ Pen pressure works in Xiaomi Notes and other drawing apps.
     Touch the pen on the dark (off) screen to wake it and open a quick
     note.
 
-TODO: list which pen models are tested on piano.
+!!! note "Coming soon"
+    Which pen models are tested on piano.
 
 ## Keyboard cover
 
@@ -24,4 +25,5 @@ TODO: list which pen models are tested on piano.
 2. Open **Settings → Xiaomi features → Keyboard** to set shortcuts, use
    the touchpad, and update the keyboard firmware.
 
-TODO: list the default keyboard shortcuts.
+!!! note "Coming soon"
+    The default keyboard shortcuts.

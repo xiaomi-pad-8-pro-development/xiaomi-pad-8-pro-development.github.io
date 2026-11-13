@@ -37,11 +37,17 @@
     [Root with KernelSU](install/root.md).
 
 ??? question "Is Google Play included?"
-    TODO: depends on the ROM build. List which builds include Google apps.
+    It depends on the ROM build.
+
+    !!! note "Coming soon"
+        Which builds include Google apps.
 
 ??? question "Does the Xiaomi camera work?"
     The stock Xiaomi camera is an optional extra. Builds that include it
-    have it as the camera app. TODO: list which builds include it.
+    have it as the camera app.
+
+    !!! note "Coming soon"
+        Which builds include it.
 
 ??? question "Should I use the 6.6 or the 6.12 kernel?"
     Use 6.6. The 6.12 kernel is for testing only. See [Kernels](kernels.md).
@@ -55,4 +61,6 @@
 - YARP recovery cannot use ADB sideload. Push the zip and install it.
 - The 6.12 kernel is in testing. Some Xiaomi features, such as reading
   mode, are missing.
-- TODO: current list of known issues for the latest release.
+
+!!! note "Coming soon"
+    The current list of known issues for the latest release.

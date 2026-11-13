@@ -2,7 +2,8 @@
 
 You need an unlocked bootloader and a working recovery.
 
-TODO: link to the ROM download page.
+!!! note "Coming soon"
+    Link to the ROM download page.
 
 The ROM zip already includes the HyperOS 4 firmware (`OS4.0.6.0.XPYCNXM`).
 You do not need a separate firmware zip.
@@ -33,7 +34,8 @@ You do not need a separate firmware zip.
         1. Open **Wipe**, then **Format Data**.
         2. Type `yes` and confirm.
 
-    TODO: check the menu names in OrangeFox and YARP on piano.
+    !!! note "Coming soon"
+        Menu names in OrangeFox and YARP on piano.
 
 4. Go back to the main screen and restart into recovery once
    (**Reboot → Recovery**), so the fresh data partition is mounted.

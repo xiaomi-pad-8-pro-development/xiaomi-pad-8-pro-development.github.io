@@ -16,7 +16,8 @@ This project makes community Android software for the Xiaomi Pad 8 Pro
   display, the Xiaomi camera, Xiaomi Notes, and an offline notes app.
   Which extras are in a build depends on that build.
 
-TODO: link to the download page for releases.
+!!! note "Coming soon"
+    Link to the download page for releases.
 
 ## Before you begin
 
@@ -29,4 +30,5 @@ TODO: link to the download page for releases.
 This is a community project. Nobody is paid to support it, and Xiaomi
 does not support it.
 
-TODO: link to the support group or chat, and where to report bugs.
+!!! note "Coming soon"
+    Link to the support group or chat, and where to report bugs.

@@ -16,7 +16,8 @@ Use the **6.6** kernel. It is in every ROM build.
 The 6.12 kernel is still in testing. Some Xiaomi features are missing,
 such as reading mode. If you are not testing, stay on 6.6.
 
-TODO: which 6.12 builds are public, and its current known issues.
+!!! note "Coming soon"
+    Which 6.12 builds are public, and their current known issues.
 
 ## Plain or root build
 

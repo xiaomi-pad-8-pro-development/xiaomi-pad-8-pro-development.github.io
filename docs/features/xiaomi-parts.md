@@ -3,7 +3,8 @@
 Xiaomi Parts brings back the Xiaomi hardware features that stock Android
 does not have. You find them in **Settings → Xiaomi features**.
 
-TODO: confirm the exact Settings entry name on each ROM.
+!!! note "Coming soon"
+    The exact Settings entry name on each ROM.
 
 | Part | What it does |
 | --- | --- |
@@ -25,4 +26,5 @@ battery cooler.
 2. Add the **Bypass charging** tile.
 3. Tap it while the charger is connected.
 
-TODO: confirm the tile name and any charger needed for bypass charging.
+!!! note "Coming soon"
+    The tile name and any charger needed for bypass charging.
